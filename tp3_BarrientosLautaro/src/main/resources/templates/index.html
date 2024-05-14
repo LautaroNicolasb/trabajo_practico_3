@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
        <head>
-             <meta charset="utf-8"
+             <meta charset="utf-8">
        </head>
        <header>
          <h1>Mi primer página</h1>
@@ -10,22 +10,22 @@
                 Programacion Visual
        </body>
        <nav>
-         <a>https://virtual.unju.edu.ar/course/view.php?id=2540</a>
-         <a>https://virtual.unju.edu.ar/pluginfile.php/811468/mod_resource/content/2/Trabajo%20Pr%C3%A1ctico%20N%C2%B0%203.pdf</a>
-         <a>https://virtual.unju.edu.ar/</a>
+		       <li><a href="#introduccion">Introducción</a></li>
+		       <li><a href="#elementos">Elementos Básicos</a></li>
+		       <li><a href="#estructura">Estructura de una Página HTML</a></li>
        </nav>
        <main>
-         <section>
-           <h2>Aplicaciones web</h2>
+         <section id="introduccion">
+           <h2>Introducción a HTML</h2>
            <p>
-             Es el modelo más basico para describir la realción entrre los programas que 
-             cooperan en una aplicación software que trabaja en red (aplicaciones web)
+			  HTML (HyperText Markup Language) es el lenguaje estándar utilizado para crear páginas web. Utiliza 
+			  etiquetas para estructurar el contenido de una página y definir cómo se presenta en un navegador web.
            </p>
-           <h2>Modelo Cliente - Servidor: componentes básicos</h2>
+         </section>
+		 <section id="elementos">
+           <h2>Elementos</h2>
            <p>
-             Servidor Web: software que "aloja" aplicaciones web. "Escucha" las solicitudes del cliente y
-             genera respuesta. Gestiona la seguridad, concurrencia, gestión del ciclo de vida de la aplicación
-             y ofrece una API para realizar diversar transacciones tales como mensajería, etc.
+              Algunos elemento básicos de HTML incluyen</p>
              <ol>
 	             <li> <!DOCTYPE>: Define el tipo de documento y la versión de HTML que estás utilizando. </li>
 	             <li> html: Define el inicio y el final del documento HTML.	 </li>
@@ -48,30 +48,42 @@
                  <li> textarea: Define un área de texto multilínea en un formulario. </li>
                  <li> button: Define un botón clickeable.</li>
              </ol>
-           </p>
+		 </section>
+		 </section id="estructura">
+		   <h3>Estructura</h3>
 		   <table border="1">
 			    <tr>
-					<th>Término</th>
-					<th>Definición</th>
+					<th>Elemento</th>
+					<th>Descripción</th>
 				</tr>
 				<tr>
-					<td>Clase</td>
-					<td>Una plantilla para crear objetos que define los atributos y comportamientos coomunes a todos los objetos de este tipo</td>
+					<td>!DOCTYPE html</td>
+					<td>Declaración que define el tipo de documento como HTML5.</td>
 				</tr>
 				<tr>
-				    <td>Método</td>
-				    <td>Una función que define el comportamiento de un objeto o una clase.</td>
+				    <td>html</td>
+				    <td>Envuelve todo el contenido de la página.</td>
 				</tr>
 		        <tr>
-			        <td>Herencia</td>
-			        <td>El mecanismo mediante el cual una clase puede heredar atributos y métodos de otra clase.</td>
+			        <td>head</td>
+			        <td>Contiene información sobre la página.</td>
 			    </tr>
 			    <tr>
-			        <td>Interface</td>
-			        <td>Una colección de métodos abstractos y constantes que puede ser implementada por una clase.</td>
+			        <td>body</td>
+			        <td>Contiene el contenido visible de la página.</td>
 	      	    </tr>
 				</table>
 		   </table>
          </section>
        </main>
+	  <aside>
+		<h4>Adicional</h4>
+		<p>¡Contenido adicional de HTML!</p> 
+		<a href="https://desarrolladoresweb.org/html/introduccion-a-html/"> Introducción a HTML</a>
+		<img src="https://www.hostinger.es/tutoriales/wp-content/uploads/sites/7/2018/11/what-is-html.jpg" alt="HTML Logo">
+	  </aside>
+	  <footer>
+		<p>Contacto: <a href="barrientoslautaro8@gmail.com">barrientoslautaro8@gmail.com</a></p>
+		<p>Perfil de Git hub: <a href="https://github.com/LautaroNicolasb">github</a></p>
+	  </footer>
 </html>
