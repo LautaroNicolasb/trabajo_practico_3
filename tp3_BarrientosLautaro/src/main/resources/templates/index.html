@@ -1,89 +1,87 @@
 <!DOCTYPE html>
 <html lang="es">
-       <head>
-             <meta charset="utf-8">
-       </head>
-       <header>
-         <h1>Mi primer página</h1>
-       </header>
-       <body>
-                Programacion Visual
-       </body>
+<head>
+      <meta charset="UTF-8">
+	  <title> Introducción a HTML </title>
+</head>
+<body>
+	<h1>Programacion Visual TP3</h1>
        <nav>
+			<ul>
 		       <li><a href="#introduccion">Introducción</a></li>
 		       <li><a href="#elementos">Elementos Básicos</a></li>
 		       <li><a href="#estructura">Estructura de una Página HTML</a></li>
-       </nav>
-       <main>
-         <section id="introduccion">
-           <h2>Introducción a HTML</h2>
-           <p>
-			  HTML (HyperText Markup Language) es el lenguaje estándar utilizado para crear páginas web. Utiliza 
-			  etiquetas para estructurar el contenido de una página y definir cómo se presenta en un navegador web.
-           </p>
-         </section>
-		 <section id="elementos">
-           <h2>Elementos</h2>
-           <p>
-              Algunos elemento básicos de HTML incluyen</p>
+			</ul>
+      </nav>
+      <main>
+          <section id="introduccion">
+               <h2>Introducción a HTML</h2>
+               <p>
+		     	  HTML (HyperText Markup Language) es el lenguaje estándar utilizado para crear páginas web. Utiliza 
+			      etiquetas para estructurar el contenido de una página y definir cómo se presenta en un navegador web.
+               </p>
+          </section>
+		  <section id="elementos">
+             <h2>Elementos</h2>
+             <p> Algunos elemento básicos de HTML incluyen:</p>
              <ol>
-	             <li> <!DOCTYPE>: Define el tipo de documento y la versión de HTML que estás utilizando. </li>
-	             <li> html: Define el inicio y el final del documento HTML.	 </li>
-	             <li> head: Contiene información sobre el documento, como el título, enlaces a estilos CSS, metadatos, etc.</li>
-	             <li> title: Define el título del documento que se muestra en la pestaña del navegador.</li>
-	             <li> body: Contiene todo el contenido visible del documento.</li>
-	             <li> h1, h2, ..., h6: Define encabezados de diferentes niveles, siendo h1 el más importante y h6 el menos.</li>
-				 <li> p: Define un párrafo.</li>
-	             <li> a: Define un enlace.</li>
-	             <li> img: Inserta una imagen.</li>
-	             <li> ul, ol, li: Define listas sin orden, ordenadas y elementos de lista, respectivamente.</li>
-	             <li> div: Define una sección genérica o contenedor en el documento.</li>
-	             <li> span: Define una sección en línea en el documento.</li>
-	             <li> table: Define una tabla.</li>
-	             <li> tr: Define una fila dentro de una tabla.</li>
-	             <li> td: Define una celda de datos dentro de una fila de tabla.</li>
-	             <li> th: Define una celda de encabezado de columna o fila dentro de una tabla.</li>
-	             <li> form: Define un formulario para recopilar datos del usuario.</li>
-	             <li> input: Define un campo de entrada en un formulario.</li>
-                 <li> textarea: Define un área de texto multilínea en un formulario. </li>
-                 <li> button: Define un botón clickeable.</li>
+	             <li><code>&lt;!DOCTYPE&gt;</code>: Define el tipo de documento y la versión de HTML que estás utilizando. </li>
+	             <li><code>&lt;html&gt;</code>: Define el inicio y el final del documento HTML.	 </li>
+	             <li><code>&lt;head&gt;</code>: Contiene información sobre el documento, como el título, enlaces a estilos CSS, metadatos, etc.</li>
+	             <li><code>&lt;title&gt;</code>: Define el título del documento que se muestra en la pestaña del navegador.</li>
+	             <li><code>&lt;body&gt;</code>: Contiene todo el contenido visible del documento.</li>
+	             <li><code>&lt;h1&gt;, &lt;h2&gt;, ..., &lt;h6&gt;</code>: Define encabezados de diferentes niveles, siendo h1 el más importante y h6 el menos.</li>
+				 <li><code>&lt;p&gt;</code>: Define un párrafo.</li>
+	             <li><code>&lt;a&gt;</code> Define un enlace.</li>
+	             <li><code>&lt;img&gt;</code> Inserta una imagen.</li>
+	             <li><code>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;</code>: Define listas sin orden, ordenadas y elementos de lista, respectivamente.</li>
+	             <li><code>&lt;div&gt;</code>: Define una sección genérica o contenedor en el documento.</li>
+	             <li><code>&lt;span&gt;</code>: Define una sección en línea en el documento.</li>
+	             <li><code>&lt;table&gt;</code>: Define una tabla.</li>
+	             <li><code>&lt;tr&gt;</code>: Define una fila dentro de una tabla.</li>
+	             <li><code>&lt;td&gt;</code>: Define una celda de datos dentro de una fila de tabla.</li>
+	             <li><code>&lt;th&gt;</code>: Define una celda de encabezado de columna o fila dentro de una tabla.</li>
+	             <li><code>&lt;form&gt;</code>: Define un formulario para recopilar datos del usuario.</li>
+	             <li><code>&lt;input&gt;</code>: Define un campo de entrada en un formulario.</li>
+                 <li><code>&lt;textarea&gt;</code>: Define un área de texto multilínea en un formulario. </li>
+                 <li><code>&lt;button&gt;</code>: Define un botón clickeable.</li>
              </ol>
-		 </section>
-		 </section id="estructura">
-		   <h3>Estructura</h3>
-		   <table border="1">
+		  </section>
+		  <section id="estructura">
+		     <h3>Estructura</h3>
+		     <table border="1">
 			    <tr>
 					<th>Elemento</th>
 					<th>Descripción</th>
 				</tr>
 				<tr>
-					<td>!DOCTYPE html</td>
+					<td><code>&lt;!DOCTYPE html&gt;</code></td>
 					<td>Declaración que define el tipo de documento como HTML5.</td>
 				</tr>
 				<tr>
-				    <td>html</td>
+				    <td><code>&lt;html&gt;</code></td>
 				    <td>Envuelve todo el contenido de la página.</td>
 				</tr>
 		        <tr>
-			        <td>head</td>
+			        <td><code>&lt;head&gt;</code></td>
 			        <td>Contiene información sobre la página.</td>
 			    </tr>
 			    <tr>
-			        <td>body</td>
+			        <td><code>&lt;body&gt;</code></td>
 			        <td>Contiene el contenido visible de la página.</td>
 	      	    </tr>
-				</table>
-		   </table>
+		     </table>
          </section>
        </main>
 	  <aside>
-		<h4>Adicional</h4>
+		<h2>Adicional</h2>
 		<p>¡Contenido adicional de HTML!</p> 
 		<a href="https://desarrolladoresweb.org/html/introduccion-a-html/"> Introducción a HTML</a>
 		<img src="https://www.hostinger.es/tutoriales/wp-content/uploads/sites/7/2018/11/what-is-html.jpg" alt="HTML Logo">
 	  </aside>
 	  <footer>
-		<p>Contacto: <a href="barrientoslautaro8@gmail.com">barrientoslautaro8@gmail.com</a></p>
+		<p>Contacto: <a href="mailto:barrientoslautaro8@gmail.com">barrientoslautaro8@gmail.com</a></p>
 		<p>Perfil de Git hub: <a href="https://github.com/LautaroNicolasb">github</a></p>
 	  </footer>
+</body>
 </html>
