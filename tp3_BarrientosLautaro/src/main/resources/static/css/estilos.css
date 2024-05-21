@@ -1,19 +1,57 @@
 @charset "UTF-8";
 
-body{
-	font-family: Arial, sans-serif;
-	margin: 0;	
-    padding: 0;
-}
-
 #encabezado{
-	background-color: #008080;
-	color: #00cc44;
+	background-color: #6600ff;
+	color: #ffffff;
 	padding: 20px;
 	text-align: center;
 }
 
 .menu{
 	padding: 5px;
+	font-family: 'Arial', sans-serif;
+}
+
+.titulo{
+	font-family: 'Arial', sans-serif;
+}
+
+.nav-link{
+	color: #6600ff;
+}
+
+.contenido-principal{
+	text-align: center;
+	font-family: 'Arial', sans-serif;
 	
+}
+
+.sec-principal{
+	text-align: left;
+	font-family: 'Arial', sans-serif;
+}
+
+.parrafo{
+	font-family: 'Arial', sans-serif;
+}
+
+.lista{
+	font-family: 'Arial', sans-serif;
+}
+
+.tabla{
+	font-family: 'Arial', sans-serif;
+}
+
+.adicional{
+	border: thick;
+}
+
+#pie{
+	font-weight: bold;
+	
+}
+
+.imagen{
+	margin: 10px;
 }
