@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+      <meta charset="UTF-8">
+	  <title> Introducción a HTML </title>
+</head>
+<body>
+	<header id="encabezado">
+		<h1 class="titulo" >Programacion Visual TP3</h1>
+	</header>
+       <nav class="menu">
+		 <ol>
+		       <li><a class="nav-link" href="#introduccion">Introducción</a></li>
+		       <li><a class="nav-link" href="#caracteristicas">Características</a></li>
+		       <li><a class="nav-link" href="#elementos">Elementos Básicos</a></li>
+		       <li><a class="nav-link" href="#estructura">Estructura de una Página HTML</a></li>
+		 </ol>
+      </nav>
+      <main class="contenido-principal">
+          <section class="sec-principal" id="introduccion">
+               <h2 class="titulo">Introducción a HTML</h2>
+               <p class="parrafo">
+		     	 HTML (HyperText Markup Language) es el lenguaje estándar utilizado para crear y estructurar contenido en la web. 
+		     	 Es un lenguaje de marcado que define la estructura de las páginas web utilizando una serie de elementos (etiquetas) 
+		     	 que delimitan y organizan diferentes tipos de contenido, como texto, imágenes, enlaces, formularios y otros componentes interactivos.
+               </p>
+          </section>
+		          <section class="sec-principal" id="caracteristicas">
+		        	  <h2 class="titulo">Características de HTML</h2>
+		        	  <ol class="lista">
+		        	  		<li>Lenguaje de Marcado: HTML es un lenguaje de marcado, lo que significa que utiliza etiquetas para "marcar" elcontenido de un documento. 
+		        	  		Cada etiqueta tiene un propósito específico y define diferentes tipos de contenido. </li>
+		        	  		<li> Etiquetas: HTML está compuesto por etiquetas (tags) que son instrucciones que el navegador utiliza para  mostrar el contenido. Las 
+		        	  		etiquetas HTML son palabras clave encerradas entre corchetes angulares (< >), y 
+		        	  		 generalmente vienen en pares de apertura y cierre, como <code>&lt;p&gt;</code> y <code>&lt;/p&gt;</code> para los párrafos.</li>
+		        	  		<li>Atributos: Las etiquetas HTML pueden tener atributos que proporcionan información adicional sobre los elementos. Los atributos se 
+		        	  		especifican en la etiqueta de apertura y tienen el formato nombre="valor". Por ejemplo, <code>a href="https://www.example.com"</code>Enlace
+		        	  		<code>/a</code>.</li>
+		        	  		<li>Estructura Jerárquica: HTML tiene una estructura jerárquica y anidada. Los elementos HTML pueden contener otros elementos,
+		        	  		 creando una estructura en árbol.</li>
+		        	  		<li>Semántica: HTML5 introdujo un conjunto de etiquetas semánticas que mejoran la estructura y el significado del contenido, 
+		        	  		como <code>header</code>, <code>footer</code>, <code>article</code>, <code>section</code>, y <code>nav</code>. 
+		        	  		Estas etiquetas hacen que el contenido sea más accesible y comprensible tanto para los motores de búsqueda como para los lectores de pantalla.</li>
+		        	  		<li>Independencia de Plataforma: Los documentos HTML pueden ser visualizados en cualquier dispositivo y sistema operativo con un navegador web, 
+		        	  		lo que lo hace independiente de la plataforma.</li>
+		        	  		<li>Interactividad: Aunque HTML por sí solo no es interactivo, se puede combinar con CSS (Cascading Style Sheets) y JavaScript para crear 
+		        	  		páginas web interactivas y atractivas. CSS se utiliza para el diseño y la presentación visual, mientras que JavaScript añade comportamiento 
+		        	  		dinámico e interactividad.</li>
+		        	  		<li>Extensibilidad: HTML se puede extender mediante el uso de lenguajes como XML y mediante la integración con tecnologías web modernas como 
+		        	  		SVG para gráficos vectoriales y MathML para contenido matemático.</li>
+		        	  		<li>Compatibilidad hacia Atrás: HTML es compatible con versiones anteriores, lo que significa que los navegadores modernos pueden renderizar 
+		        	  		contenido HTML escrito en versiones más antiguas del lenguaje.</li>
+		        	  </ol>
+		          </section>
+					  <section class="sec-principal" id="elementos">
+			             <h2 class="titulo">Elementos</h2>
+			             <p class="parrafo"> Algunos elemento básicos de HTML incluyen:</p>
+			             <ol class="lista">
+				             <li><code>&lt;!DOCTYPE&gt;</code>: Define el tipo de documento y la versión de HTML que estás utilizando. </li>
+				             <li><code>&lt;html&gt;</code>: Define el inicio y el final del documento HTML.	 </li>
+				             <li><code>&lt;head&gt;</code>: Contiene información sobre el documento, como el título, enlaces a estilos CSS, metadatos, etc.</li>
+				             <li><code>&lt;title&gt;</code>: Define el título del documento que se muestra en la pestaña del navegador.</li>
+				             <li><code>&lt;body&gt;</code>: Contiene todo el contenido visible del documento.</li>
+				             <li><code>&lt;h1&gt;, &lt;h2&gt;, ..., &lt;h6&gt;</code>: Define encabezados de diferentes niveles, siendo h1 el más importante y h6 el menos.</li>
+							 <li><code>&lt;p&gt;</code>: Define un párrafo.</li>
+				             <li><code>&lt;a&gt;</code> Define un enlace.</li>
+				             <li><code>&lt;img&gt;</code> Inserta una imagen.</li>
+				             <li><code>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;</code>: Define listas sin orden, ordenadas y elementos de lista, respectivamente.</li>
+				             <li><code>&lt;div&gt;</code>: Define una sección genérica o contenedor en el documento.</li>
+				             <li><code>&lt;span&gt;</code>: Define una sección en línea en el documento.</li>
+				             <li><code>&lt;table&gt;</code>: Define una tabla.</li>
+				             <li><code>&lt;tr&gt;</code>: Define una fila dentro de una tabla.</li>
+				             <li><code>&lt;td&gt;</code>: Define una celda de datos dentro de una fila de tabla.</li>
+				             <li><code>&lt;th&gt;</code>: Define una celda de encabezado de columna o fila dentro de una tabla.</li>
+				             <li><code>&lt;form&gt;</code>: Define un formulario para recopilar datos del usuario.</li>
+				             <li><code>&lt;input&gt;</code>: Define un campo de entrada en un formulario.</li>
+			                 <li><code>&lt;textarea&gt;</code>: Define un área de texto multilínea en un formulario. </li>
+			                 <li><code>&lt;button&gt;</code>: Define un botón clickeable.</li>
+			             </ol>
+					  </section>
+				  <section class="sec-principal" id="estructura">
+				     	<h2 class="titulo">Estructura</h2>
+					     <table class="tabla">
+							    <tr>
+									<th>Elemento</th>
+									<th>Descripción</th>
+								</tr>
+								<tr>
+									<td><code>&lt;!DOCTYPE html&gt;</code></td>
+									<td>Declaración que define el tipo de documento como HTML5.</td>
+								</tr>
+								<tr>
+								    <td><code>&lt;html&gt;</code></td>
+								    <td>Envuelve todo el contenido de la página.</td>
+								</tr>
+						        <tr>
+							        <td><code>&lt;head&gt;</code></td>
+							        <td>Contiene información sobre la página.</td>
+							    </tr>
+							    <tr>
+							        <td><code>&lt;body&gt;</code></td>
+							        <td>Contiene el contenido visible de la página.</td>
+					      	    </tr>
+					     </table>
+		         </section>
+		       </main>
+		 <aside class="adicional">
+				<h3 class="titulo">Adicional</h3>
+				<p class="parrafo">¡Contenido adicional de HTML!</p> 
+				<a class="nav-link" href="https://desarrolladoresweb.org/html/introduccion-a-html/"> Introducción a HTML</a>
+				<img class="imagen" src="https://www.hostinger.es/tutoriales/wp-content/uploads/sites/7/2018/11/what-is-html.jpg" alt="HTML Logo">
+		 </aside>
+	  <footer id="pie">
+			<p>Contacto: <a  class="nav-link" href="barrientoslautaro8@gmail.com">barrientoslautaro8@gmail.com</a></p>
+			<p>Perfil de Git hub: <a  class="nav-link" href="https://github.com/LautaroNicolasb">github</a></p>
+	  </footer>
+</body>
+</html>
